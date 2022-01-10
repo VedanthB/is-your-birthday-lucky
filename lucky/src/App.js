@@ -20,7 +20,7 @@ export default function App() {
   //state for result text and image
   const [displayResult, setDisplayResult] = useState(["", ""]);
 
-  function checkBtnHandler(e) {
+  const checkBtnHandler = e => {
     //to stop refreshing page on submit form
     e.preventDefault();
     //to convert the date into small strings
